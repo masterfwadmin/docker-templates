@@ -18,7 +18,7 @@
 	<Networking>
 		<Mode>bridge</Mode>
 		<Publish>
-		  <Port></Port>
+		  <Port>5800</Port>
 		</Publish>
 	</Networking>
 	<Environment>
