@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+	<Name>iptvboss</Name>
+	<Beta>False</Beta>
+	<Category>Tools:Utilities</Category>
+	<Overview>iptvboss</Overview>
+
+	<Description>iptvboss
+	[br]
+	[br]
+	</Description>
+	<Change></Change>
+	<Support></Support>
+	<Registry>https://hub.docker.com/r/</Registry>
+	<Repository>masterfwadmin/iptvboss</Repository>
+	<BindTime>true</BindTime>
+	<Privileged>false</Privileged>
+	<Networking>
+		<Mode>bridge</Mode>
+		<Publish>
+		  <Port></Port>
+		</Publish>
+	</Networking>
+	<Environment>
+		<Variable></Variable>
+	</Environment>
+	<Data>
+		<Volume>
+			<HostDir>/mnt/user/iptvboss</HostDir>
+			<ContainerDir>/iptvboss</ContainerDir>
+			<Mode>rw</Mode>
+		</Volume> 
+	</Data>
+	<WebUI></WebUI>
+	<Banner></Banner>
+	<Icon></Icon>
+</Container>
