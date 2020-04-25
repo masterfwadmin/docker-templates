@@ -11,7 +11,7 @@
 	</Description>
 	<Change></Change>
 	<Support></Support>
-	<Registry>https://hub.docker.com/r/</Registry>
+	<Registry>https://hub.docker.com/repository/docker</Registry>
 	<Repository>masterfwadmin/iptvboss</Repository>
 	<BindTime>true</BindTime>
 	<Privileged>false</Privileged>
