@@ -35,7 +35,7 @@
 			<Mode>rw</Mode>
 		</Volume> 
 	</Data>
-	<WebUI></WebUI>
+	<WebUI>http://[IP]:[PORT:58000]/</WebUI>
 	<Banner></Banner>
 	<Icon></Icon>
 </Container>
