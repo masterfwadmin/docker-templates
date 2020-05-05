@@ -31,7 +31,7 @@
 	<Data>
           <Volume>
             <HostDir>/mnt/cache/appdata/iptvboss</HostDir>
-            <ContainerDir>/config</ContainerDir>
+            <ContainerDir>/app</ContainerDir>
             <Mode>rw</Mode>
           </Volume>
         </Data>
