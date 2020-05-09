@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+	<Name>iptvboss</Name>
+	<Beta>False</Beta>
+	<Category>Tools:Utilities</Category>
+	<Overview>iptvboss</Overview>
+
+	<Description>iptvboss
+	[br]
+	[br]
+	</Description>
+	<Change></Change>
+	<Support></Support>
+	<Registry>https://registry.hub.docker.com/u/masterfwadmin/alpha/</Registry>
+	<Repository>masterfwadmin/alpha</Repository>
+	<BindTime>true</BindTime>
+	<Privileged>false</Privileged>
+	<Networking>
+		<Mode>bridge</Mode>
+		<Publish>
+		  <Port>
+                    <HostPort>58000</HostPort>
+                    <ContainerPort>5800</ContainerPort>
+                    <Protocol>tcp</Protocol>
+                  </Port>
+		</Publish>
+	</Networking>
+	<Environment>
+		<Variable></Variable>
+	</Environment>
+	<Data>
+          <Volume>
+            <HostDir>/mnt/cache/appdata/alpha</HostDir>
+            <ContainerDir>/app</ContainerDir>
+            <Mode>rw</Mode>
+          </Volume>
+        </Data>
+	<WebUI>http://[IP]:[PORT:58000]/</WebUI>
+	<Banner></Banner>
+	<Icon></Icon>
+</Container>
