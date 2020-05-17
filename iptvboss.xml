@@ -36,5 +36,5 @@
         </Data>
 	<WebUI>http://[IP]:[PORT:58000]/</WebUI>
 	<Banner></Banner>
-	<Icon>https://github.com/masterfwadmin/iptvboss/blob/master/iptvboss.png</Icon>
+	<Icon>https://raw.githubusercontent.com/masterfwadmin/iptvboss/master/iptvboss.png</Icon>
 </Container>
