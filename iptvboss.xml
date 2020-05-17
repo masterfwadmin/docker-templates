@@ -11,7 +11,7 @@
 	</Description>
 	<Change></Change>
 	<Support></Support>
-	<Registry>https://registry.hub.docker.com/u/masterfwadmin/jubilee/</Registry>
+	<Registry>https://registry.hub.docker.com/u/masterfwadmin/iptvboss/</Registry>
 	<Repository>masterfwadmin/iptvboss</Repository>
 	<BindTime>true</BindTime>
 	<Privileged>false</Privileged>
