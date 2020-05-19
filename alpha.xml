@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-	<Name>alpha</Name>
+	<Name>iptvboss</Name>
 	<Beta>False</Beta>
 	<Category>Tools:Utilities</Category>
-	<Overview>alpha</Overview>
+	<Overview>iptvboss</Overview>
 
-	<Description>alpha
-	[br]
-	[br]
+	<Description>
+		iptvboss
 	</Description>
 	<Change></Change>
 	<Support></Support>
@@ -19,7 +18,7 @@
 		<Mode>bridge</Mode>
 		<Publish>
 		  <Port>
-                    <HostPort>58000</HostPort>
+                    <HostPort>58001</HostPort>
                     <ContainerPort>5800</ContainerPort>
                     <Protocol>tcp</Protocol>
                   </Port>
@@ -30,12 +29,12 @@
 	</Environment>
 	<Data>
           <Volume>
-            <HostDir>/mnt/cache/appdata/alpha</HostDir>
+            <HostDir>/mnt/cache/appdata/iptvboss</HostDir>
             <ContainerDir>/app</ContainerDir>
             <Mode>rw</Mode>
           </Volume>
         </Data>
-	<WebUI>http://[IP]:[PORT:58000]/</WebUI>
+	<WebUI>http://[IP]:[PORT:58001]/</WebUI>
 	<Banner></Banner>
-	<Icon></Icon>
+	<Icon>https://raw.githubusercontent.com/masterfwadmin/iptvboss/master/src/iptvboss.png</Icon>
 </Container>
