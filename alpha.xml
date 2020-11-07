@@ -25,14 +25,16 @@
 		</Publish>
 	</Networking>
         <Environment>
-          <Variable>
-            <Name>PUID</Name>
-            <Value>1001</Value>
-          </Variable>
-          <Variable>
-            <Name>PGID</Name>
-            <Value>100</Value>
-          </Variable>
+    		<Variable>
+      			<Value>1001</Value>
+      			<Name>USER_ID</Name>
+      			<Mode/>
+    		</Variable>
+    		<Variable>
+      			<Value>100</Value>
+      			<Name>GROUP_ID</Name>
+      			<Mode/>
+		</Variable>
         </Environment>
 	<Data>
           <Volume>
