@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+	<Name>wireguard</Name>
+	<Beta>False</Beta>
+	<Category>Tools:Utilities</Category>
+	<Overview>wireguard</Overview>
+
+	<Description>
+		wireguard
+	</Description>
+	<Change></Change>
+	<Support></Support>
+	<Registry>https://registry.hub.docker.com/u/masterfwadmin/wireguard/</Registry>
+	<Repository>masterfwadmin/wireguard</Repository>
+	<BindTime>true</BindTime>
+	<Privileged>false</Privileged>
+	<Networking>
+		<Mode>bridge</Mode>
+	</Networking>
+        <Environment>
+          <Variable>
+            <Name>PUID</Name>
+            <Value>1001</Value>
+          </Variable>
+          <Variable>
+            <Name>PGID</Name>
+            <Value>100</Value>
+          </Variable>
+        </Environment>
+      	<Data>
+          <Volume>
+            <HostDir>/mnt/cache/appdata/wireguard</HostDir>
+            <ContainerDir>/etc/wireguard</ContainerDir>
+            <Mode>rw</Mode>
+          </Volume>
+        </Data>
+	<Banner></Banner>
+	<Icon>https://raw.githubusercontent.com/masterfwadmin/wireguard/master/src/wireguard.png</Icon>
+</Container>
