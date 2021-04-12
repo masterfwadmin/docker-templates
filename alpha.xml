@@ -28,7 +28,7 @@
       <Value>username</Value>
       <Name>JARVISSPORTS_USERNAME</Name>
       <Mode/>
-      <Display>advanced</Display>
+      <Display>advanced-hide</Display>
     </Variable>
     <Variable>
       <Value>password</Value>
