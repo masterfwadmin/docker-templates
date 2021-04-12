@@ -28,12 +28,7 @@
       <name>JARVISSPORTS_USERNAME</name>
       <description></description>
       <default>username</default>
-      <unraid_template>
-        <title>Jarvis Sports Username</title>
-        <display>advanced</display>
-        <required>false</required>
-        <mask>false</mask>
-      </unraid_template>
+      <title>Jarvis Sports Username</title>
     </Variable>
     <Variable>
       <Value>1001</Value>
