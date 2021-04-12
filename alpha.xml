@@ -26,28 +26,33 @@
     <Environment>
     <Variable>
       <Value>username</Value>
-      			<Name>JARVISSPORTS_USERNAME</Name>
-      			<Mode/>
-    		</Variable>
-   <Variable>
+      <Name>JARVISSPORTS_USERNAME</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>password</Value>
+      <Name>JARVISSPORTS_PASSWORD</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
       <Value>99</Value>
-      			<Name>USER_ID</Name>
-      			<Mode/>
-    		</Variable>
-    		<Variable>
-      			<Value>100</Value>
-      			<Name>GROUP_ID</Name>
-      			<Mode/>
-		</Variable>
-        </Environment>
-	<Data>
-          <Volume>
-            <HostDir>/mnt/cache/appdata/iptvboss-alpha</HostDir>
-            <ContainerDir>/app</ContainerDir>
-            <Mode>rw</Mode>
-          </Volume>
-        </Data>
-	<WebUI>http://[IP]:[PORT:57000]/</WebUI>
-	<Banner></Banner>
-	<Icon>https://raw.githubusercontent.com/masterfwadmin/iptvboss/master/src/iptvboss.png</Icon>
+      <Name>USER_ID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>GROUP_ID</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/iptvboss-alpha</HostDir>
+      <ContainerDir>/app</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:57000]/</WebUI>
+  <Banner></Banner>
+  <Icon>https://raw.githubusercontent.com/masterfwadmin/iptvboss/master/src/iptvboss.png</Icon>
 </Container>
