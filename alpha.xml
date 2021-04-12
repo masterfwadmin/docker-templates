@@ -23,8 +23,8 @@
       </Port>
     </Publish>
   </Networking>
-  <environment_variables>
-    <environment_variable>
+  <Environment>
+    <Variable>
       <name>JARVISSPORTS_USERNAME</name>
       <description></description>
       <default>username</default>
@@ -34,11 +34,9 @@
         <required>false</required>
         <mask>false</mask>
       </unraid_template>
-    </environment_variable>
-  </environment_variables>
-        <Environment>
-		<Variable>
-      			<Value>1001</Value>
+    </Variable>
+    <Variable>
+      <Value>1001</Value>
       			<Name>USER_ID</Name>
       			<Mode/>
     		</Variable>
