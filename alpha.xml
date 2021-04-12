@@ -57,4 +57,8 @@
   <WebUI>http://[IP]:[PORT:57000]/</WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/masterfwadmin/iptvboss/master/src/iptvboss.png</Icon>
+    <!-- Variable Mappings -->
+  <Config Name="User ID" Target="USER_ID" Default="99" Mode="" Description="ID of the user the application runs as." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+  <Config Name="Group ID" Target="GROUP_ID" Default="100" Mode="" Description="ID of the group the application runs as." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+  <Config Name="JarvisSports Username" Target="JARVISSPORTS_USERNAME" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false"/>
 </Container>
