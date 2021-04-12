@@ -17,13 +17,19 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>57000</HostPort>
+        <HostPort>57000</HostPort> 
         <ContainerPort>5800</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
-  </Networking>
+    </Networking>
+    <Environment>
     <Variable>
+      <Value>username</Value>
+      			<Name>JARVISSPORTS_USERNAME</Name>
+      			<Mode/>
+    		</Variable>
+   <Variable>
       <Value>99</Value>
       			<Name>USER_ID</Name>
       			<Mode/>
