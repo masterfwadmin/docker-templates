@@ -1,42 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-	<Name>iptvboss-alpha</Name>
-	<Beta>False</Beta>
-	<Category>Tools:Utilities</Category>
-	<Overview>iptvboss-alpha</Overview>
-
-	<Description>
-		iptvboss-alpha
-	</Description>
-	<Change></Change>
-	<Support></Support>
-	<Registry>https://registry.hub.docker.com/u/masterfwadmin/alpha/</Registry>
-	<Repository>masterfwadmin/alpha</Repository>
-	<BindTime>true</BindTime>
-	<Privileged>false</Privileged>
-	<Networking>
-		<Mode>bridge</Mode>
-		<Publish>
-		  <Port>
-                    <HostPort>57000</HostPort>
-                    <ContainerPort>5800</ContainerPort>
-                    <Protocol>tcp</Protocol>
-                  </Port>
-		</Publish>
-	</Networking>
+  <Name>iptvboss-alpha</Name>
+  <Beta>False</Beta>
+  <Category>Tools:Utilities</Category>
+  <Overview>iptvboss-alpha</Overview>
+  <Description>
+	iptvboss-alpha
+  </Description>
+  <Change></Change>
+  <Support></Support>
+  <Registry>https://registry.hub.docker.com/u/masterfwadmin/alpha/</Registry>
+  <Repository>masterfwadmin/alpha</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>57000</HostPort>
+        <ContainerPort>5800</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment_Variables>
+    <Environment_Variable>
+      <Name>JARVISSPORTS_USERNAME</Name>
+      <Description></Description>
+      <Default>username</Default>
+      <Unraid_Template>
+        <Title>Jarvis Sports Username</Title>
+        <Display>advanced</Display>
+        <Required>false</Required>
+        <Mask>false</Mask>
+      </Unraid_Template>
+    </Environment_Variable>
+  </Environment_Variables>
         <Environment>
-    		<Variable>
-      			<Value></Value>
-      			<Name>JarvisSports Username</Name>
-      			<Mode/>
-		</Variable>
-    		<Variable>
-      			<Value></Value>
-      			<Name>JarvisSports Password</Name>
-      			<Mode/>
-		</Variable>
-
-    		<Variable>
+		<Variable>
       			<Value>1001</Value>
       			<Name>USER_ID</Name>
       			<Mode/>
