@@ -23,15 +23,8 @@
       </Port>
     </Publish>
   </Networking>
-  <Environment>
     <Variable>
-      <name>JARVISSPORTS_USERNAME</name>
-      <description></description>
-      <default>username</default>
-      <title>Jarvis Sports Username</title>
-    </Variable>
-    <Variable>
-      <Value>1001</Value>
+      <Value>99</Value>
       			<Name>USER_ID</Name>
       			<Mode/>
     		</Variable>
