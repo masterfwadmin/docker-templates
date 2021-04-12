@@ -26,6 +26,17 @@
 	</Networking>
         <Environment>
     		<Variable>
+      			<Value></Value>
+      			<Name>JarvisSports Username</Name>
+      			<Mode/>
+		</Variable>
+    		<Variable>
+      			<Value></Value>
+      			<Name>JarvisSports Password</Name>
+      			<Mode/>
+		</Variable>
+
+    		<Variable>
       			<Value>1001</Value>
       			<Name>USER_ID</Name>
       			<Mode/>
