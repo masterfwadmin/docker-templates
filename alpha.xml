@@ -28,6 +28,7 @@
       <Value>username</Value>
       <Name>JARVISSPORTS_USERNAME</Name>
       <Mode/>
+      <Display>advanced</Display>
     </Variable>
     <Variable>
       <Value>password</Value>
@@ -38,6 +39,7 @@
       <Value>99</Value>
       <Name>USER_ID</Name>
       <Mode/>
+      <Display>advanced</Display>
     </Variable>
     <Variable>
       <Value>100</Value>
