@@ -23,19 +23,19 @@
       </Port>
     </Publish>
   </Networking>
-  <Environment_Variables>
-    <Environment_Variable>
-      <Name>JARVISSPORTS_USERNAME</Name>
-      <Description></Description>
-      <Default>username</Default>
-      <Unraid_Template>
-        <Title>Jarvis Sports Username</Title>
-        <Display>advanced</Display>
-        <Required>false</Required>
-        <Mask>false</Mask>
-      </Unraid_Template>
-    </Environment_Variable>
-  </Environment_Variables>
+  <environment_variables>
+    <environment_variable>
+      <name>JARVISSPORTS_USERNAME</name>
+      <description></description>
+      <default>username</default>
+      <unraid_template>
+        <title>Jarvis Sports Username</title>
+        <display>advanced</display>
+        <required>false</required>
+        <mask>false</mask>
+      </unraid_template>
+    </environment_variable>
+  </environment_variables>
         <Environment>
 		<Variable>
       			<Value>1001</Value>
