@@ -25,12 +25,6 @@
     </Networking>
     <Environment>
     <Variable>
-      <Value>username</Value>
-      <Name>JARVISSPORTS_USERNAME</Name>
-      <Mode/>
-      <Display>advanced-hide</Display>
-    </Variable>
-    <Variable>
       <Value>password</Value>
       <Name>JARVISSPORTS_PASSWORD</Name>
       <Mode/>
@@ -44,7 +38,6 @@
       <Value>99</Value>
       <Name>USER_ID</Name>
       <Mode/>
-      <Display>advanced</Display>
     </Variable>
     <Variable>
       <Value>100</Value>
@@ -62,5 +55,5 @@
   <WebUI>http://[IP]:[PORT:57000]/</WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/masterfwadmin/iptvboss/master/src/iptvboss.png</Icon>
-  <Config Name="Varible JARVISSPORTS_USERNAME" Target="JARVISSPORTS_USERNAME" Default="username" Mode="" Description="Container Variable: JARVISSPORTS_USERNAME" Type="Variable" Display="advanced-hide" Required="false" Mask="false">username</Config>
+  <Config Name="Varible JARVISSPORTS_USERNAME" Target="JARVISSPORTS_USERNAME" Default="username" Mode="" Description="Container Variable: JARVISSPORTS_USERNAME" Type="Variable" Display="advanced" Required="false" Mask="false">username</Config>
 </Container>
