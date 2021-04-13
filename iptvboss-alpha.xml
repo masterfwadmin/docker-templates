@@ -57,4 +57,5 @@
   <WebUI>http://[IP]:[PORT:57000]/</WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/masterfwadmin/iptvboss/master/src/iptvboss.png</Icon>
+  <Config Name="Varible JARVISSPORTS_USERNAME" Target="JARVISSPORTS_USERNAME" Default="username" Mode="" Description="Container Variable: JARVISSPORTS_USERNAME" Type="Variable" Display="advanced-hide" Required="false" Mask="false">username</Config>
 </Container>
