@@ -36,6 +36,11 @@
       <Mode/>
     </Variable>
     <Variable>
+      <Value>yes|no</Value>
+      <Name>JARVISSPORTS_USE12HOUR</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
       <Value>99</Value>
       <Name>USER_ID</Name>
       <Mode/>
