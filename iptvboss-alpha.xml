@@ -47,5 +47,5 @@
   <Icon>https://raw.githubusercontent.com/masterfwadmin/iptvboss/master/src/iptvboss.png</Icon>
   <Config Name="Varible JARVISSPORTS_USERNAME" Target="JARVISSPORTS_USERNAME" Default="username" Mode="" Description="Container Variable: JARVISSPORTS_USERNAME" Type="Variable" Display="advanced" Required="false" Mask="false">username</Config>
   <Config Name="Varible JARVISSPORTS_PASSWORD" Target="JARVISSPORTS_PASSWORD" Default="password" Mode="" Description="Container Variable: JARVISSPORTS_PASSWORD" Type="Variable" Display="advanced" Required="false" Mask="false">password</Config>
-  <Config Name="Varible JARVISSPORTS_USE12HOUR" Target="JARVISSPORTS_USE12HOUR" Default="yes" Mode="" Description="Container Variable: JARVISSPORTS_USE12HOUR" Type="Variable" Display="advanced" Required="false" Mask="false">yes|no</Config>
+  <Config Name="Varible JARVISSPORTS_USE12HOUR" Target="JARVISSPORTS_USE12HOUR" Default="yes" Mode="" Description="Container Variable: JARVISSPORTS_USE12HOUR" Type="Variable" Display="advanced" Required="false" Mask="false">yes</Config>
 </Container>
