@@ -48,4 +48,7 @@
   <Config Name="Varible JSPORTS_USERNAME" Target="JSPORTS_USERNAME" Default="username" Mode="" Description="Container Variable: JSPORTS_USERNAME" Type="Variable" Display="advanced" Required="false" Mask="false">username</Config>
   <Config Name="Varible JSPORTS_PASSWORD" Target="JSPORTS_PASSWORD" Default="password" Mode="" Description="Container Variable: JSPORTS_PASSWORD" Type="Variable" Display="advanced" Required="false" Mask="false">password</Config>
   <Config Name="Varible JSPORTS_USE12HOUR" Target="JSPORTS_USE12HOUR" Default="yes" Mode="" Description="Container Variable: JSPORTS_USE12HOUR" Type="Variable" Display="advanced" Required="false" Mask="false">yes</Config>
+  <Config Name="Varible SSHKEY" Target="SSHKEY" Default="yes" Mode="" Description="Container Variable: SSHKEY" Type="Variable" Display="advanced" Required="false" Mask="false">yes</Config>
+  <Config Name="Varible SSHHOST" Target="SSHHOST" Default="yes" Mode="" Description="Container Variable: SSHHOST" Type="Variable" Display="advanced" Required="false" Mask="false">yes</Config>
+  <Config Name="Varible SSHPATH" Target="SSHPATH" Default="yes" Mode="" Description="Container Variable: SSHPATH" Type="Variable" Display="advanced" Required="false" Mask="false">yes</Config>
 </Container>
