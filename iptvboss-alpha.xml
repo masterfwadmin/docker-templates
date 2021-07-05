@@ -45,11 +45,12 @@
   <WebUI>http://[IP]:[PORT:57000]/</WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/masterfwadmin/iptvboss/master/src/iptvboss.png</Icon>
- <Config Name="Varible JSPORTS_USERNAME" Target="JSPORTS_USERNAME" Default="username" Mode="" Description="Container Variable: JSPORTS_USERNAME" Type="Variable" Display="advanced" Required="false" Mask="false">username</Config>
-  <Config Name="Varible JSPORTS_PASSWORD" Target="JSPORTS_PASSWORD" Default="password" Mode="" Description="Container Variable: JSPORTS_PASSWORD" Type="Variable" Display="advanced" Required="false" Mask="false">password</Config>
-  <Config Name="Varible JSPORTS_PARAMS" Target="JSPORTS_PARAMS" Default="" Mode="" Description="Container Variable: JSPORTS_PARAMS" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
-  <Config Name="Varible SCPENABLE" Target="SCPENABLE" Default="no" Mode="" Description="Container Variable: SCPENABLE" Type="Variable" Display="advanced" Required="false" Mask="false">no</Config>
-  <Config Name="Varible SCPID" Target="SCPID" Default="root" Mode="" Description="Container Variable: SCPID" Type="Variable" Display="advanced" Required="false" Mask="false">root</Config>
-  <Config Name="Varible SCPHOST" Target="SCPHOST" Default="example.com" Mode="" Description="Container Variable: SCPHOST" Type="Variable" Display="advanced" Required="false" Mask="false">example.com</Config>
-  <Config Name="Varible SCPPATH" Target="SCPPATH" Default="/var/www/html" Mode="" Description="Container Variable: SCPPATH" Type="Variable" Display="advanced" Required="false" Mask="false">/var/www/html</Config>
+  <Config Name="Variable VLCENABLE" Target="VLCENABLE" Default="no|yes" Mode="" Description="Container Variable: VLCENABLE" Type="Variable" Display="advanced" Required="false" Mask="false">no</Config>
+  <Config Name="Variable JSPORTS_USERNAME" Target="JSPORTS_USERNAME" Default="username" Mode="" Description="Container Variable: JSPORTS_USERNAME" Type="Variable" Display="advanced" Required="false" Mask="false">username</Config>
+  <Config Name="Variable JSPORTS_PASSWORD" Target="JSPORTS_PASSWORD" Default="password" Mode="" Description="Container Variable: JSPORTS_PASSWORD" Type="Variable" Display="advanced" Required="false" Mask="false">password</Config>
+  <Config Name="Variable JSPORTS_PARAMS" Target="JSPORTS_PARAMS" Default="" Mode="" Description="Container Variable: JSPORTS_PARAMS" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+  <Config Name="Variable SCPENABLE" Target="SCPENABLE" Default="no" Mode="" Description="Container Variable: SCPENABLE" Type="Variable" Display="advanced" Required="false" Mask="false">no</Config>
+  <Config Name="Variable SCPID" Target="SCPID" Default="root" Mode="" Description="Container Variable: SCPID" Type="Variable" Display="advanced" Required="false" Mask="false">root</Config>
+  <Config Name="Variable SCPHOST" Target="SCPHOST" Default="example.com" Mode="" Description="Container Variable: SCPHOST" Type="Variable" Display="advanced" Required="false" Mask="false">example.com</Config>
+  <Config Name="Variable SCPPATH" Target="SCPPATH" Default="/var/www/html" Mode="" Description="Container Variable: SCPPATH" Type="Variable" Display="advanced" Required="false" Mask="false">/var/www/html</Config>
 </Container>
