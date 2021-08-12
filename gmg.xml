@@ -47,5 +47,5 @@
   </Environment>
   <WebUI>http://[IP]:[PORT:58888]/</WebUI>
   <Banner></Banner>
-  <Icon>https://raw.githubusercontent.com/masterfwadmin/gmg/master/assets/gmg.png</Icon>
+  <Icon>https://github.com/masterfwadmin/gmg/raw/master/assets/gmg.png</Icon>
 </Container>
