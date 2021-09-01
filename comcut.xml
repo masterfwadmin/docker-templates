@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>comcut</Name>
+  <Repository>masterfwadmin/comcut</Repository>
+  <Registry>https://hub.docker.com/r/masterfwadmin/comcut</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support></Support>
+  <Project>https://github.com/masterfwadmin/comcut</Project>
+  <Overview>Watches for .ts files made by Live TV recordings, convert them to a friendly format, extract .srt file, add chapters with comchap or remove them with comcut. Tested with Emby recordings.&#xD;
+&#xD;
+Nvidia GPU Use&#xD;
+Using the Unraid Nvidia Plugin to install a version of Unraid with the Nvidia Drivers installed and&#xD;
+add --runtime=nvidia to "extra parameters" (switch on advanced view) and&#xD;
+copy your GPU UUID to NVIDIA_VISIBLE_DEVICES&#xD;
+  &#xD;
+  </Overview>
+  <Beta>False</Beta>
+  <Category>MediaApp:Video</Category>
+  <Date>2021-09-01</Date>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/masterfwadmin/comcut/master/resources/icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1598291189</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>Watches for .ts files made by Live TV recordings, convert them to a friendly format, extract .srt file, add chapters with comchap or remove them with comcut.&#xD;
+&#xD;
+Nvidia GPU Use&#xD;
+Using the Unraid Nvidia Plugin to install a version of Unraid with the Nvidia Drivers installed and&#xD;
+add --runtime=nvidia to "extra parameters" (switch on advanced view) and&#xD;
+copy your GPU UUID to NVIDIA_VISIBLE_DEVICES</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/watch</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/output</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/backup</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>1</Value>
+      <Name>DELETE_TS</Name>
+      <Mode/>
+    </Variable>
+     <Variable>
+      <Value>1</Value>
+      <Name>SUBTITLES</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>mkv</Value>
+      <Name>CONVERSION_FORMAT</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>ts</Value>
+      <Name>SOURCE_EXT</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>comchap</Value>
+      <Name>POST_PROCESS</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>NVIDIA_VISIBLE_DEVICES</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>000</Value>
+      <Name>UMASK</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="CONFIG FOLDER" Target="/config" Default="/mnt/user/appdata/comcut" Mode="rw" Description="Configuration folder /config" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="WATCH FOLDER" Target="/watch" Default="" Mode="rw" Description="This location contains .ts files that need converting /watch" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="BACKUP FOLDER" Target="/backup" Default="" Mode="rw" Description="Optional, only used if DELETE_TS is set to 2  /backup" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="DELETE_TS" Target="DELETE_TS" Default="1" Mode="" Description="Remove the original .ts recording file. 0 = Yes, 1 = No, 2 = Move to backup directory" Type="Variable" Display="always" Required="false" Mask="false">1</Config>
+  <Config Name="SUBTITLES" Target="SUBTITLES" Default="0" Mode="" Description="Extract subtitles to .srt. 0= Yes, 1 = No" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
+  <Config Name="CONVERSION_FORMAT" Target="CONVERSION_FORMAT" Default="mkv" Mode="" Description="mkv or mp4" Type="Variable" Display="always" Required="false" Mask="false">mkv</Config>
+  <Config Name="SOURCE_EXT" Target="SOURCE_EXT" Default="ts" Mode="" Description="Source file extension, default .ts" Type="Variable" Display="always" Required="false" Mask="false">ts</Config>
+  <Config Name="POST_PROCESS" Target="POST_PROCESS" Default="comchap" Mode="" Description="comchap or comcut&#13;&#10;default: comchap" Type="Variable" Display="always" Required="false" Mask="false">comchap</Config>
+  <Config Name="NVIDIA_VISIBLE_DEVICES" Target="NVIDIA_VISIBLE_DEVICES" Default="" Mode="" Description="GPU UUID retrieved from Nvidia plugin settings&#13;&#10;" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="Container Variable: PGID" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
+  <Config Name="UMASK" Target="UMASK" Default="" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="always" Required="false" Mask="false">000</Config>
+</Container>
