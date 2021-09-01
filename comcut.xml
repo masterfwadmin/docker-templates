@@ -110,6 +110,7 @@ copy your GPU UUID to NVIDIA_VISIBLE_DEVICES</Description>
   </Environment>
   <Labels/>
   <Config Name="CONFIG FOLDER" Target="/config" Default="/mnt/user/appdata/comcut" Mode="rw" Description="Configuration folder /config" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="OUTPUT FOLDER" Target="/output" Default="" Mode="rw" Description="Output folder" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="WATCH FOLDER" Target="/watch" Default="" Mode="rw" Description="This location contains .ts files that need converting /watch" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="BACKUP FOLDER" Target="/backup" Default="" Mode="rw" Description="Optional, only used if DELETE_TS is set to 2  /backup" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="DELETE_TS" Target="DELETE_TS" Default="1" Mode="" Description="Remove the original .ts recording file. 0 = Yes, 1 = No, 2 = Move to backup directory" Type="Variable" Display="always" Required="false" Mask="false">1</Config>
