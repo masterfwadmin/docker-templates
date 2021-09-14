@@ -48,6 +48,9 @@
   <Config Name="Varible JSPORTS_USERNAME" Target="JSPORTS_USERNAME" Default="username" Mode="" Description="Container Variable: JSPORTS_USERNAME" Type="Variable" Display="advanced" Required="false" Mask="false">username</Config>
   <Config Name="Varible JSPORTS_PASSWORD" Target="JSPORTS_PASSWORD" Default="password" Mode="" Description="Container Variable: JSPORTS_PASSWORD" Type="Variable" Display="advanced" Required="false" Mask="false">password</Config>
   <Config Name="Varible JSPORTS_PARAMS" Target="JSPORTS_PARAMS" Default="" Mode="" Description="Container Variable: JSPORTS_PARAMS" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+  <Config Name="Variable ESPG_USERNAME" Target="ESPG_USERNAME" Default="username" Mode="" Description="Container Variable: ESPG_USERNAME" Type="Variable" Display="advanced" Required="false" Mask="false">username</Config>
+  <Config Name="Variable ESPG_PASSWORD" Target="ESPG_PASSWORD" Default="password" Mode="" Description="Container Variable: ESPG_PASSWORD" Type="Variable" Display="advanced" Required="false" Mask="false">password</Config>
+  <Config Name="Variable ESPG_PARAMS" Target="ESPG_PARAMS" Default="" Mode="" Description="Container Variable: ESPG_PARAMS" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
   <Config Name="Varible SCPENABLE" Target="SCPENABLE" Default="no" Mode="" Description="Container Variable: SCPENABLE" Type="Variable" Display="advanced" Required="false" Mask="false">no</Config>
   <Config Name="Varible SCPID" Target="SCPID" Default="root" Mode="" Description="Container Variable: SCPID" Type="Variable" Display="advanced" Required="false" Mask="false">root</Config>
   <Config Name="Varible SCPHOST" Target="SCPHOST" Default="example.com" Mode="" Description="Container Variable: SCPHOST" Type="Variable" Display="advanced" Required="false" Mask="false">example.com</Config>
