@@ -21,6 +21,11 @@
         <ContainerPort>5800</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
+      <Port>
+        <HostPort>8001</HostPort> 
+        <ContainerPort>8001</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
     </Publish>
     </Networking>
     <Environment>
