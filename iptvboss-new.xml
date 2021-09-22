@@ -9,7 +9,7 @@
   </Description>
   <Change></Change>
   <Support></Support>
-  <Registry>https://registry.hub.docker.com/u/masterfwadmin/alpha/</Registry>
+  <Registry>https://registry.hub.docker.com/u/masterfwadmin/iptvboss-new/</Registry>
   <Repository>masterfwadmin/alpha</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
