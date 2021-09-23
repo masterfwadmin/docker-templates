@@ -17,7 +17,7 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>58001</HostPort> 
+        <HostPort>58005</HostPort> 
         <ContainerPort>5800</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
