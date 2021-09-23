@@ -47,7 +47,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:58001]/</WebUI>
+  <WebUI>http://[IP]:[PORT:58005]/</WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/masterfwadmin/iptvboss/master/src/iptvboss.png</Icon>
   <Config Name="Variable ESPG_USERNAME" Target="ESPG_USERNAME" Default="username" Mode="" Description="Container Variable: ESPG_USERNAME" Type="Variable" Display="advanced" Required="false" Mask="false">username</Config>
