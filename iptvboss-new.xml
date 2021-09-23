@@ -22,7 +22,7 @@
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
-        <HostPort>8001</HostPort> 
+        <HostPort>18001</HostPort> 
         <ContainerPort>8001</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
