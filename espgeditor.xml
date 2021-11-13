@@ -43,7 +43,7 @@
   <Data>
     <Volume>
       <HostDir>/mnt/user/appdata/espgeditor</HostDir>
-      <ContainerDir>/app</ContainerDir>
+      <ContainerDir>/app/espg-server/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
