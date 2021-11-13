@@ -1,0 +1,56 @@
+
+Raw Blame
+     
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>espgeditor</Name>
+  <Beta>False</Beta>
+  <Category>Tools:Utilities</Category>
+  <Overview>espgeditor</Overview>
+  <Description>
+        espgeditor
+  </Description>
+  <Change></Change>
+  <Support></Support>
+  <Registry>https://registry.hub.docker.com/r/espg/espgeditor/</Registry>
+  <Repository>espg/espgeditor</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>58500</HostPort>
+        <ContainerPort>5000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>58080</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+    </Networking>
+    <Environment>
+      <Variable>
+        <Value>99</Value>
+        <Name>USER_ID</Name>
+        <Mode/>
+      </Variable>
+      <Variable>
+        <Value>100</Value>
+        <Name>GROUP_ID</Name>
+        <Mode/>
+      </Variable>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/espgeditor</HostDir>
+      <ContainerDir>/app</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:58080]/</WebUI>
+  <Banner></Banner>
+  <Icon>http://espg.midweststreams.us/espgeditor.png</Icon>
+</Container>
