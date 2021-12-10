@@ -23,7 +23,7 @@
       </Port>
       <Port>
         <HostPort>58080</HostPort>
-        <ContainerPort>80</ContainerPort>
+        <ContainerPort>8000</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
