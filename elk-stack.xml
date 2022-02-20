@@ -64,6 +64,11 @@
         <Name>MAX_OPEN_FILES</Name>
         <Mode/>
       </Variable>
+      <Variable>
+        <Value></Value>
+        <Name>MAXMIND_LICENSE_KEY</Name>
+        <Mode/>
+      </Variable>
   </Environment>
   <Data>
     <Volume>
