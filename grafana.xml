@@ -51,6 +51,11 @@
       <ContainerDir>/var/lib/grafana</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/grafana/telegraf</HostDir>
+      <ContainerDir>/etc/telegraf</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:3001]/</WebUI>
   <Banner></Banner>
