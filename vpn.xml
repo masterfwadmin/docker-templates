@@ -12,7 +12,7 @@
   <Registry>https://registry.hub.docker.com/u/masterfwadmin/vpn</Registry>
   <Repository>masterfwadmin/vpn</Repository>
   <BindTime>true</BindTime>
-  <Privileged>false</Privileged>
+  <Privileged>true</Privileged>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
