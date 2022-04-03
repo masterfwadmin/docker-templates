@@ -34,6 +34,16 @@
         <Name>GROUP_ID</Name>
         <Mode/>
       </Variable>
+      <Variable>
+        <Value>192.168.1.0/24</Value>
+        <Name>LAN_NETWORK</Name>
+        <Mode/>
+      </Variable>
+      <Variable>
+        <Value>false</Value>
+        <Name>DEBUG</Name>
+        <Mode/>
+      </Variable>
   </Environment>
   <Data>
     <Volume>
