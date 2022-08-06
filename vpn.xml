@@ -44,7 +44,7 @@
   </Data>
   <WebUI>http://[IP]:[PORT:8588]/</WebUI>
   <Banner></Banner>
-  <Icon>https://my5xi5jq5p-flywheel.netdna-ssl.com/wp-content/uploads/2019/09/vpn-icon.png</Icon>
+  <Icon>https://sites.duke.edu/dusontechtuesday/files/2020/04/vpn-150x150.png</Icon>
   <Config Name="User ID" Target="PUID" Default="1001" Mode="" Description="ID of the user the application runs as." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
   <Config Name="Group ID" Target="PGID" Default="100" Mode="" Description="ID of the group the application runs as." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
   <Config Name="Debug" Target="DEBUG" Default="false" Mode="" Description="Debugging" Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
