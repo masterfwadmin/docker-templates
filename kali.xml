@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>kali</Name>
+  <Beta>False</Beta>
+  <Category>Tools:Utilities</Category>
+  <Overview>kali</Overview>
+  <Description>
+	  kali
+  </Description>
+  <Change></Change>
+  <Support></Support>
+  <Registry>https://registry.hub.docker.com/u/masterfwadmin/kali</Registry>
+  <Repository>masterfwadmin/kali</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8680</HostPort> 
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>8690</HostPort> 
+        <ContainerPort>5900</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+    </Networking>
+  <Environment>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/kali</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:8680]/</WebUI>
+  <Banner></Banner>
+  <Icon>https://gitlab.com/kalilinux/packages/kali-menu/-/raw/kali/master/menu-icons/256x256/apps/kali-www.png</Icon>
+  <Config Name="User ID" Target="PUID" Default="1001" Mode="" Description="ID of the user the application runs as." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+  <Config Name="Group ID" Target="PGID" Default="100" Mode="" Description="ID of the group the application runs as." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+  <Config Name="Debug" Target="DEBUG" Default="false" Mode="" Description="Debugging" Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+  </Container>
