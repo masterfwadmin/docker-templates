@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>torbrowser</Name>
+  <Beta>False</Beta>
+  <Category>Tools:Utilities</Category>
+  <Overview>torbrowser</Overview>
+  <Description>
+	  torbrowser
+  </Description>
+  <Change></Change>
+  <Support></Support>
+  <Registry>https://registry.hub.docker.com/u/masterfwadmin/torbrowser</Registry>
+  <Repository>masterfwadmin/torbrowser</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8480</HostPort> 
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+    </Networking>
+  <Environment>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/torbrowser</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:8480]/</WebUI>
+  <Banner></Banner>
+  <Icon>https://www.torproject.org/static/images/tor-browser/Browser_Icon.png</Icon>
+  <Config Name="User ID" Target="PUID" Default="1001" Mode="" Description="ID of the user the application runs as." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+  <Config Name="Group ID" Target="PGID" Default="100" Mode="" Description="ID of the group the application runs as." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+  <Config Name="Custom Screen Width" Target="CUSTOM_RES_W" Default="" Mode="" Description="Minimum screen width 1000 pixels" Type="Variable" Display="advanced" Required="true" Mask="false">1280</Config>
+  <Config Name="Custom Screen Height" Target="CUSTOM_RES_H" Default="" Mode="" Description="Minimum screen hight 880 pixels" Type="Variable" Display="advanced" Required="true" Mask="false">768</Config>
+  </Container>
