@@ -22,7 +22,7 @@
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
-        <HostPort>8690</HostPort> 
+        <HostPort>8699</HostPort> 
         <ContainerPort>5900</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
