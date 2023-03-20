@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>wyze</Name>
+  <Beta>False</Beta>
+  <Category>Tools:Utilities</Category>
+  <Overview>wyze</Overview>
+  <Description>
+	  wyze
+  </Description>
+  <Change></Change>
+  <Support></Support>
+  <Registry>https://registry.hub.docker.com/u/masterfwadmin/wyze</Registry>
+  <Repository>masterfwadmin/wyze</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>1935</HostPort> 
+        <ContainerPort>1935</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>8554</HostPort> 
+        <ContainerPort>8554</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>8854</HostPort> 
+        <ContainerPort>8888</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>5554</HostPort> 
+        <ContainerPort>5000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+    </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/wyze</HostDir>
+      <ContainerDir>/app</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:5554]/</WebUI>
+  <Banner></Banner>
+  <Icon>https://spacecoastdaily.com/wp-content/uploads/2022/11/wyze-camera-600-1.png</Icon>
+  <Config Name="User ID" Target="PUID" Default="1001" Mode="" Description="ID of the user the application runs as." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+  <Config Name="Group ID" Target="PGID" Default="100" Mode="" Description="ID of the group the application runs as." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+  <Config Name="Debug" Target="DEBUG" Default="false" Mode="" Description="Debugging" Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+  </Container>
