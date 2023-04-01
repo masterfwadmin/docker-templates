@@ -42,7 +42,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:8688]/</WebUI>
+  <WebUI>http://[IP]:[PORT:8688]/vnc.html?autoconnect=true</WebUI>
   <Banner></Banner>
   <Icon>https://sites.duke.edu/dusontechtuesday/files/2020/04/vpn-150x150.png</Icon>
   <Config Name="User ID" Target="PUID" Default="1001" Mode="" Description="ID of the user the application runs as." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
