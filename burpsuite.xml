@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>burpsuite</Name>
+  <Beta>False</Beta>
+  <Category>Tools:Utilities</Category>
+  <Overview>burpsuite</Overview>
+  <Description>
+	  burpsuite
+  </Description>
+  <Change></Change>
+  <Support></Support>
+  <Registry>https://registry.hub.docker.com/u/masterfwadmin/burpsuite</Registry>
+  <Repository>masterfwadmin/burpsuite</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>48080</HostPort> 
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/burpsuite</HostDir>
+      <ContainerDir>/home/burpsuite</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:48080]/</WebUI>
+  <Banner></Banner>
+  <Icon>https://assets.gitlab-static.net/uploads/-/system/project/avatar/16865306/thumbnail.png</Icon>
+  <Config Name="User ID" Target="PUID" Default="1001" Mode="" Description="ID of the user the application runs as." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+  <Config Name="Group ID" Target="PGID" Default="100" Mode="" Description="ID of the group the application runs as." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+  <Config Name="Debug" Target="DEBUG" Default="false" Mode="" Description="Debugging" Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+  </Container>
