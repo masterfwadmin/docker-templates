@@ -20,6 +20,7 @@
         <HostPort>48080</HostPort> 
         <ContainerPort>8080</ContainerPort>
         <Protocol>tcp</Protocol>
+      </Port>
     </Publish>
   </Networking>
   <Data>
