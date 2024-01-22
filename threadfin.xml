@@ -33,10 +33,7 @@
   <WebUI>http://[IP]:[PORT:34401]/</WebUI>
   <Banner></Banner>
   <Icon>https://github.com/Threadfin/Threadfin/blob/main/html/img/threadfin.png?raw=true</Icon>
-  <Config Name="THREADFIN_PORT" Target="THREADFIN_PORT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask=">
-  <Config Name="THREADFIN_DEBUG" Target="THREADFIN_DEBUG" Default="" Mode="" Description="Set Threadfin debug level [ 0-3 ] Default: 0=OFF" Type=">
-  <Config Name="THREADFIN_BRANCH" Target="THREADFIN_BRANCH" Default="" Mode="" Description="Set Threadfin git branch (main / beta)" Type="Variable>
-  <Config Name="CONF" Target="/home/threadfin/conf" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">
+  <Config Name="CONF" Target="/home/threadfin/conf" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="User ID" Target="PUID" Default="1001" Mode="" Description="ID of the user the application runs as." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
   <Config Name="Group ID" Target="PGID" Default="100" Mode="" Description="ID of the group the application runs as." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
   </Container>
