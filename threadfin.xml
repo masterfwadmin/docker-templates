@@ -26,7 +26,7 @@
   <Data>
     <Volume>
       <HostDir>/mnt/user/appdata/threadfin</HostDir>
-      <ContainerDir>/config</ContainerDir>
+      <ContainerDir>/home/threadfin/conf</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
